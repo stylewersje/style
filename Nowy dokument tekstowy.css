@@ -1431,7 +1431,7 @@ a.disabled {
 
 @media (min-width: 1900px) {
   .container {
-    max-width: 1800px;
+    max-width: 1100px;
   }
 }
 
@@ -2855,7 +2855,7 @@ template {
 }
 
 .login-page-bkg {
-  width: 100% auto;
+  width: 100%;
   min-height: calc(100vh - 3.75rem);
   background: #f4f2ef url("../img/bkg/login-page.jpg") top center no-repeat;
   background-size: 100% auto;
@@ -2868,7 +2868,7 @@ template {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1200px) {
   .login-page-bkg {
     min-height: 100vh;
     padding-top: 0;
@@ -5955,7 +5955,7 @@ template {
 }
 
 .modal-header p {
-  margin-top: 0.9375rem;
+  margin: 2rem 0 0;
 }
 
 .modal-title {
@@ -5965,6 +5965,7 @@ template {
 .modal-body {
   position: relative;
   padding: 1.25rem;
+  padding-top: 2rem;
 }
 
 .modal-footer {
